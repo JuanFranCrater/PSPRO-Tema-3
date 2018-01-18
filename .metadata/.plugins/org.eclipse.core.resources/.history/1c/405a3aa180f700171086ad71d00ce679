@@ -1,0 +1,20 @@
+import java.net.Socket;
+
+public class ServidorHilo extends Thread{
+
+	private Socket skAtencion=null;
+	private int numClient=0;
+	String mensaje;
+	
+	public ServidorHilo(Socket skAtencion, int nCli) {
+		this.skAtencion=skAtencion;
+		this.numClient=nCli;
+	}
+	
+	@Override
+	public void run()
+	{
+		
+	}
+
+}

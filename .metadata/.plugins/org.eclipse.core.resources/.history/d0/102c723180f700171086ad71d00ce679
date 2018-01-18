@@ -1,0 +1,10 @@
+import java.net.Socket;
+
+public class ServidorHilo {
+
+
+	public ServidorHilo(Socket skAtencion, int nCli) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

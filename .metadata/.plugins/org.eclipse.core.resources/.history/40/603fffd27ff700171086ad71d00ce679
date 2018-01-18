@@ -1,0 +1,28 @@
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class Servidor {
+
+	static final int PUERTO = 5000;
+	
+	public static void main(String[] args) {
+		ServerSocket skSRV;
+		
+		try {
+		skSRV= new ServerSocket(PUERTO);
+		System.out.println("Servidor escuchando en: "+skSRV.getLocalSocketAddress().toString());
+		int nCli= 0;
+		
+		while(true)
+		{
+			Socket skAtencion = skSRV.accept();
+		}
+		
+		}catch(IOException e)
+		{
+			e.printStackTrace();
+		}
+	}
+
+}

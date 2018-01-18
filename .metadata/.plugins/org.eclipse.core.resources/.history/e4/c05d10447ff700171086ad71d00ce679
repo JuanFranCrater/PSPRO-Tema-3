@@ -1,0 +1,19 @@
+import java.io.IOException;
+import java.net.ServerSocket;
+
+public class Servidor {
+
+	static final int PUERTO = 5000;
+	
+	public static void main(String[] args) {
+		ServerSocket skSRV;
+		
+		try {
+		skSRV= new ServerSocket(PUERTO);
+		}catch(IOException e)
+		{
+			e.printStackTrace();
+		}
+	}
+
+}
