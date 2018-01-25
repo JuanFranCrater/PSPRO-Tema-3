@@ -1,9 +1,0 @@
-
-public class Cliente {
-	
-	static final String HO_STRING = 'localhost';
-	public static void main(String[] args) {
-		new Cliente();
-	}
-
-}
