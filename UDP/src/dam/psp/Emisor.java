@@ -10,7 +10,7 @@ import java.net.UnknownHostException;
 public class Emisor {
 	public static final int PuertoEmisor = 5555;
 	public static final int PuertoReceptor = 4444;
-	public static final String IPEmisor = "192.168.3.57"; // 192.168.3.57 
+	public static final String IPEmisor = "192.168.3.32"; // 192.168.3.57 
 	
 	public Emisor() {
 		
@@ -22,7 +22,7 @@ public class Emisor {
 		// Construimos el contenido del mensaje a enviar
 		byte[] contenido = new byte[144];
 		//String mensaje
-		DatoUDP datoUDP=new DatoUDP("Mensaje",123456789);
+		DatoUDP datoUDP=new DatoUDP("asi",123456789);
 		
 		try {
 			
