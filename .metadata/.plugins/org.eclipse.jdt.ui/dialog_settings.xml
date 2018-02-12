@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item value="2" key="org.eclipse.jdt.ui.last.selected.jre.kind2"/>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 	</section>
 	<section name="DialogBounds_SuperInterfaceSelectionDialog">
@@ -50,9 +51,24 @@
 		<item value="1" key="VisibilityModifier"/>
 		<item value="false" key="FinalModifier"/>
 	</section>
+	<section name="DialogBounds_OverrideMethodDialog">
+		<item value="538" key="DIALOG_WIDTH"/>
+		<item value="1|Noto Sans|9.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="507" key="DIALOG_HEIGHT"/>
+		<item value="415" key="DIALOG_X_ORIGIN"/>
+		<item value="32" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
 		<item value="true" key="ShowStatusLine"/>
 		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History/&gt;" key="History"/>
+	</section>
+	<section name="SourceActionDialog.methods">
+		<item value="false" key="SynchronizedModifier"/>
+		<item value="false" key="Comments"/>
+		<item value="false" key="FinalModifier"/>
+	</section>
+	<section name="OverrideMethodDialog">
+		<item value="false" key="showtypes"/>
 	</section>
 	<section name="RenameInformationPopup">
 	</section>
