@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.ProcessBuilder"/>
-<fullyQualifiedTypeName name="java.util.Random"/>
-<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
-<fullyQualifiedTypeName name="java.io.InputStream"/>
 <fullyQualifiedTypeName name="java.lang.Runnable"/>
 <fullyQualifiedTypeName name="Servidor"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
@@ -44,11 +40,24 @@
 <fullyQualifiedTypeName name="dam.psp.CalculadoraSRV"/>
 <fullyQualifiedTypeName name="dam.psp.ICalculadora"/>
 <fullyQualifiedTypeName name="java.rmi.RemoteException"/>
-<fullyQualifiedTypeName name="javax.crypto.SecretKey"/>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="javax.crypto.KeyGenerator"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="org.apache.commons.codec.digest.DigestUtils"/>
+<fullyQualifiedTypeName name="org.apache.commons.codec.binary.Base64"/>
+<fullyQualifiedTypeName name="javax.crypto.SecretKey"/>
+<fullyQualifiedTypeName name="javax.crypto.spec.SecretKeySpec"/>
+<fullyQualifiedTypeName name="dam.psp.CifradoAES"/>
+<fullyQualifiedTypeName name="jdk.internal.org.objectweb.asm.commons.StaticInitMerger"/>
+<fullyQualifiedTypeName name="java.security.KeyPair"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="javax.crypto.Cipher"/>
+<fullyQualifiedTypeName name="java.util.Base64"/>
+<fullyQualifiedTypeName name="java.security.KeyFactory"/>
+<fullyQualifiedTypeName name="javax.swing.text.GapContent"/>
+<fullyQualifiedTypeName name="java.security.spec.RSAPublicKeySpec"/>
+<fullyQualifiedTypeName name="java.security.spec.RSAPrivateKeySpec"/>
+<fullyQualifiedTypeName name="java.security.KeyPairGenerator"/>
+<fullyQualifiedTypeName name="java.security.KeyPairGeneratorSpi"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="javax.crypto.spec.SecretKeySpec"/>
 </qualifiedTypeNameHistroy>

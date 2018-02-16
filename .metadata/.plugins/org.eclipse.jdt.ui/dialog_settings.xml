@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="2" key="org.eclipse.jdt.ui.last.selected.jre.kind2"/>
+	<item value="1" key="org.eclipse.jdt.ui.last.selected.jre.kind2"/>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
+	</section>
+	<section name="ProblemSeveritiesConfigurationBlock">
+		<item value="false" key="expanded2"/>
+		<item value="false" key="expanded1"/>
+		<item value="false" key="expanded4"/>
+		<item value="false" key="expanded3"/>
+		<item value="false" key="expanded6"/>
+		<item value="false" key="expanded5"/>
+		<item value="false" key="expanded7"/>
+		<item value="true" key="expanded0"/>
 	</section>
 	<section name="DialogBounds_SuperInterfaceSelectionDialog">
 		<item value="380" key="DIALOG_WIDTH"/>
@@ -62,6 +72,11 @@
 		<item value="true" key="ShowStatusLine"/>
 		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History/&gt;" key="History"/>
 	</section>
+	<section name="JavaBuildConfigurationBlock">
+		<item value="false" key="expanded2"/>
+		<item value="false" key="expanded1"/>
+		<item value="true" key="expanded0"/>
+	</section>
 	<section name="SourceActionDialog.methods">
 		<item value="false" key="SynchronizedModifier"/>
 		<item value="false" key="Comments"/>
@@ -73,6 +88,9 @@
 	<section name="RenameInformationPopup">
 	</section>
 	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item value="3" key="pageIndex"/>
 	</section>
 	<section name="completion_proposal_size">
 		<item value="200" key="size.y"/>
