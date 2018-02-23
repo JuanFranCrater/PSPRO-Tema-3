@@ -23,6 +23,7 @@ public class Srv_SSL  {
 			System.out.println("Aceptando Conexiones...");
 			SSLSocket socketAtencion = (SSLSocket) socketSRV.accept();
 			System.out.println("Atendiendo una nueva conexion con hilo dedicado");
+			
 			new Srv_SSLThread(socketAtencion).start();
 		}
 		
@@ -30,6 +31,11 @@ public class Srv_SSL  {
 	
 	public static void main(String[] args)  {
 			try {
+				System.setProperty("javax.net.ssl.keyStore", "./cert/AlmacenSRV");
+				System.setProperty("javax.net.ssl.keyStorePassword", "ies29700412");
+				System.setProperty("javax.net.ssl.trustStore", "./cert/AlmacenSRV");
+				System.setProperty("javax.net.ssl.trustStorePassword", "ies29700412");
+
 				new Srv_SSL();
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
